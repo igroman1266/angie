@@ -16,7 +16,11 @@
 2) Устанавливаем модуль Brotli (Screen5);
 3) Переносим необходимые файлы и папки (Screen6, Screen7);
 4) Делаем бэкап конфига Angie перед переносом конфигурации (Screen8)
-5) Переносим необходимую конфигурацию (Screen);
-6) Меняем в файлах путь с nginx на angie (Screen);
-7) Проверяем конфигурацию (Screen);
-8) Перезапускаем Angie (Screen).
+5) Переносим необходимую конфигурацию и параллельно добавляем подгрузку модуля Brotli:
+load_module modules/ngx_http_brotli_filter_module.so;
+load_module modules/ngx_http_brotli_static_module.so;
+(Screen9);
+6) Сохраняем файл и проверяем правильность сборки файла конфигурации (Screen10);
+7) Меняем в файлах путь с nginx на angie (Screen);
+8) Проверяем конфигурацию (Screen);
+9) Перезапускаем Angie (Screen).
