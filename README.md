@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/22abd6ec-2db4-4cfa-a951-707ba01f9ae5)Миграция с Nginx на Angie // ДЗ: 
+Миграция с Nginx на Angie // ДЗ: 
 1. Взять готовый набор конфигов для Nginx
 2. Установить пакет Angie без удаления пакета Nginx
 3. Перенести все значимые параметры конфигурации из Nginx в Angie
